@@ -16,6 +16,9 @@ the code, which I've implemented separately
 - [Example code](https://numpy.org/doc/stable/user/c-info.how-to-extend.html#example) from the NumPy
   docs was informative on how to use the `PyArrayObject` type (rather than the `PyObject` in the old
   API)
+- [shap](https://github.com/slundberg/shap/blob/master/shap/_cext.cc) also gives a useful example of
+  using the new NumPy API ("an interface for a fast Tree SHAP implementation" in machine learning
+  explainability)
 
 To test the code, the example given by Dan is
 
